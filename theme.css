@@ -113,3 +113,14 @@ input[type=file] {
   transform: scale(0);
   transition: transform .3s;
 }
+
+.preview-info-progress {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background: #42b983;
+  transition: width .22s;
+  width: 30%;
+}
